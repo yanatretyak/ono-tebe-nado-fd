@@ -20,18 +20,19 @@
 
 .header__link {
   font-weight: 400;
-  font-size: 18px; 
+  font-size: 18px;
   letter-spacing: 0%;
 }
 
 .header__link_active {
-  text-decoration: none;  
+  text-decoration: none;
 }
 
-.header-logo {  /* вернись к лого и попробуй исправить размер */
+.header-logo {
+  /* вернись к лого и попробуй исправить размер */
   display: block;
   width: 148px;
-  height: 105px; 
+  height: 105px;
 }
 
 .header__logo-image {
@@ -63,11 +64,11 @@
 }
 
 .overlay {
-  position: absolute; 
+  position: absolute;
   inset: 0;
   padding: auto;
   z-index: -1;
-  background-color: rgb(0 0 1/.6);
+  background-color: rgb(0 0 1/0.6);
 }
 
 .cover-title {
@@ -103,12 +104,12 @@
 }
 
 .cover_description {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   height: 51px;
   margin-top: 106px;
   margin-bottom: 50px;
-} 
+}
 
 .cover__description-text {
   align-self: center;
@@ -132,7 +133,7 @@
 
 .lots {
   box-sizing: border-box;
-  margin: 180px 24px 120px;  
+  margin: 180px 24px 120px;
   min-height: 723px;
 }
 
@@ -157,7 +158,8 @@
   min-height: 596px;
 }
 
-.card, .card-link {
+.card,
+.card-link {
   height: 100%;
   text-decoration: none;
 }
@@ -173,7 +175,7 @@
   background-position: center;
   color: rgba(255, 255, 255, 1);
 }
- 
+
 .card_type_film {
   background-image: url(/images/card-lot-01.jpg);
 }
@@ -210,13 +212,13 @@
 
 .about {
   margin-left: 24px;
-  margin-right: 24px;  
+  margin-right: 24px;
   min-height: 595px;
   display: grid;
   grid-template-columns: 334px 698px;
   column-gap: 20px;
   justify-items: center;
-} 
+}
 
 .about__column-left {
   padding-top: 35px;
@@ -234,7 +236,7 @@
 
 .about__logo-image {
   display: block;
-  width: 62%; 
+  width: 62%;
 }
 
 .about__title {
@@ -252,7 +254,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 24px; 
+  gap: 24px;
   justify-content: center;
 }
 
