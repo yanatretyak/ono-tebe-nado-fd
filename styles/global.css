@@ -36,3 +36,10 @@ img {
 button {
   font: inherit;
 }
+
+.lots__card-list {
+  list-style: none;
+}
+
+
+
